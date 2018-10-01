@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Services;
 
 use App\Models\Channel;
@@ -54,15 +55,122 @@ class YoutubenImport
         $dataPacket = [
             'download_id' => $downloadId,
             'channel_id' => $channel->id,
-            'view_count' => $stats->viewCount,
+            'views' => $stats->viewCount,
             'comment_count' => $stats->commentCount,
             'subscriber_count' => $stats->subscriberCount,
             'video_count' => $stats->videoCount,
         ];
+
         $class = DataImportService::class;
         $method = "saveChannelStats";
         $args = [
-            'dataPackedt' => $dataPacket
+            'dataPacket' => $dataPacket
+        ];
+
+        /** @var QueueService $queuService */
+        $queueService = app()->make(QueueService::class);
+        $queueService->sendToQueue($class, $method, $args);
+    }
+
+    public function getChannelVideos($args)
+    {
+        $channelId = $args['channelId'];
+        /** @var YoutubeApi $youtube */
+        $youtube = app()->make(YoutubeApi::class);
+
+        $download = Download::create([
+            'type' => self::SUB_TYPE
+        ]);
+        $videos = $youtube->listAllChannelVideos($channelId);
+        print "videos: " . count($videos) . "\n";
+        $i = 0;
+        foreach ($videos as $videoId) {
+
+            if ($i % 60 == 0) {
+                print "\n {$i} ";
+            }$i++;
+            print ".";
+            $class = YoutubenImport::class;
+            $method = 'getVideoDetails';
+            $args = [
+                'videoId' => $videoId,
+                'downloadId' => $download->id,
+            ];
+            /** @var QueueService $queuService */
+            $queueService = app()->make(QueueService::class);
+            $queueService->sendToQueue($class, $method, $args);
+        }
+        print "\n";
+
+
+    }
+
+    public function getVideoDetails($args)
+    {
+
+        $videoId = $args['videoId'];
+        $downloadId = $args['downloadId'];
+
+        /** @var YoutubeApi $youtube */
+        $youtubeApi = app()->make(YoutubeApi::class);
+
+        $content = $youtubeApi->getVideoInfo($videoId);
+        $snippet = $content->snippet;
+
+        $channel = Channel::where('youtube_channel_id', $snippet->channelId)
+            ->firstOrFail();
+
+        try {
+            $defaultImage = $snippet->thumbnails->default->url;
+        } catch (\Exception $e) {
+            $defaultImage = null;
+        }
+        try {
+            $mediumImage = $snippet->thumbnails->medium->url;
+        } catch (\Exception $e) {
+            $mediumImage = null;
+        }
+        try {
+            $highImage = $snippet->thumbnails->high->url;
+        } catch (\Exception $e) {
+            $highImage = null;
+        }
+
+
+        $video = [
+            'channel_id' => $channel->id,
+            'youtube_video_id' => $videoId,
+            'title' => $snippet->title,
+            'descr' => $snippet->description,
+            'default_img_url' => $defaultImage,
+            'medium_img_url' => $mediumImage,
+            'high_img_url' => $highImage,
+            'player_html' => $content->player->embedHtml,
+            'published_at' => date("Y-m-d G:h:s", strtotime($snippet->publishedAt)),
+            'duration' => $content->contentDetails->duration
+        ];
+
+        $tags = (property_exists($snippet, 'tags'))
+            ? $snippet->tags
+            : [];
+
+        $statistics = $content->statistics;
+        $stats = [
+            'views' => getProperty($statistics, 'viewCount', 0),
+            'likes' => getProperty($statistics, 'likeCount', 0),
+            'dislikes' => getProperty($statistics, 'dislikeCount', 0),
+            'favorites' => getProperty($statistics, 'favoriteCount', 0),
+            'comment_count' => getProperty($statistics, 'commentCount', 0),
+        ];
+
+        $class = DataImportService::class;
+        $method = 'saveVideoData';
+        $args = [
+            'downloadId' => $downloadId,
+            'videoId' => $videoId,
+            'video' => $video,
+            'tags' => $tags,
+            'stats' => $stats
         ];
 
         /** @var QueueService $queuService */

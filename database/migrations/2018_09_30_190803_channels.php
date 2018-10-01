@@ -23,6 +23,7 @@ class Channels extends Migration
             $table->string('default_img_url');
             $table->string('medium_img_url');
             $table->string('high_img_url');
+
             $table->timestamps();
             $table->index(['youtube_channel_id']);
         });
@@ -31,10 +32,10 @@ class Channels extends Migration
             $table->increments('id');
             $table->unsignedInteger('download_id');
             $table->unsignedInteger('channel_id');
-            $table->integer('view_count');
-            $table->integer('comment_count');
-            $table->integer('subscriber_count');
-            $table->integer('video_count');
+            $table->unsignedBigInteger('views');
+            $table->unsignedBigInteger('comment_count');
+            $table->unsignedBigInteger('subscriber_count');
+            $table->unsignedBigInteger('video_count');
             $table->boolean('latest')->nullable();
             $table->timestamps();
 

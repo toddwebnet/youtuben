@@ -2,18 +2,21 @@
 
 namespace App\Models;
 
+
 use Illuminate\Database\Eloquent\Model;
 
-class ChannelStats extends Model
+class VideoStats extends Model
 {
-    protected $table = 'channel_statistics';
+    protected $table = 'video_statistics';
+
     protected $fillable = [
         'download_id',
-        'channel_id',
+        'video_id',
         'views',
+        'likes',
+        'dislikes',
+        'favorites',
         'comment_count',
-        'subscriber_count',
-        'video_count',
-        'latest'
+        'latest',
     ];
 }
