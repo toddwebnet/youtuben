@@ -88,7 +88,8 @@ class YoutubenImport
 
             if ($i % 60 == 0) {
                 print "\n {$i} ";
-            }$i++;
+            }
+            $i++;
             print ".";
             $class = YoutubenImport::class;
             $method = 'getVideoDetails';
@@ -101,8 +102,6 @@ class YoutubenImport
             $queueService->sendToQueue($class, $method, $args);
         }
         print "\n";
-
-
     }
 
     public function getVideoDetails($args)
@@ -136,7 +135,6 @@ class YoutubenImport
             $highImage = null;
         }
 
-
         $video = [
             'channel_id' => $channel->id,
             'youtube_video_id' => $videoId,
@@ -151,7 +149,7 @@ class YoutubenImport
         ];
 
         $tags = (property_exists($snippet, 'tags'))
-            ? $snippet->tags
+            ? $this->trimTags($snippet->tags)
             : [];
 
         $statistics = $content->statistics;
@@ -176,5 +174,15 @@ class YoutubenImport
         /** @var QueueService $queuService */
         $queueService = app()->make(QueueService::class);
         $queueService->sendToQueue($class, $method, $args);
+    }
+
+    private function trimTags(array $tags)
+    {
+        foreach ($tags as &$tag) {
+            if (strlen($tag) > 255) {
+                $tag = substr($tag, 0, 255);
+            }
+        }
+        return $tags;
     }
 }

@@ -20,7 +20,6 @@ class GetChannelVideos extends Command
         $i = 0;
         foreach ($channels as $channel) {
             $i++;
-            if($i<2){continue;}
             print "\n{$i}/{$t} - " . $channel->youtube_channel_id . "\n";
             $class = YoutubenImport::class;
             $method = "getChannelVideos";

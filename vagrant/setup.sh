@@ -34,3 +34,16 @@ mysql -uroot -ppassword < /home/vagrant/www/youtuben/vagrant/create.sql
 
 service apache2 restart
 
+
+touch /home/vagrant/www/youtuben/storage/logs/worker.log
+chmod 777 -R /home/vagrant/www/youtuben/storage/logs
+
+service supervisor stop
+if [ ! -e /etc/supervisor/conf.d/supervisor-youtuben.conf ]; then
+  echo "configure supervisor ##########################################################"
+  cp /home/vagrant/www/youtuben/vagrant/supervisor.conf /etc/supervisor/conf.d/supervisor-youtuben.conf
+  supervisorctl reread
+  supervisorctl update
+  supervisorctl start supervisor-youtuben:*
+fi
+sudo service supervisor stop
