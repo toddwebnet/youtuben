@@ -4,7 +4,9 @@ namespace App\Services;
 
 use App\Models\Channel;
 use App\Models\Download;
+use App\Models\Video;
 use App\Services\Api\YoutubeApi;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 
 class YoutubenImport
 {
@@ -82,20 +84,26 @@ class YoutubenImport
             'type' => self::SUB_TYPE
         ]);
         $videos = $youtube->listAllChannelVideos($channelId);
+
         print "videos: " . count($videos) . "\n";
         $i = 0;
-        foreach ($videos as $videoId) {
-
+        foreach ($videos as $item) {
+            $videoId = $item['videoId'];
+            $publishedAt = $item['publishedAt'];
             if ($i % 60 == 0) {
                 print "\n {$i} ";
             }
             $i++;
             print ".";
             $class = YoutubenImport::class;
-            $method = 'getVideoDetails';
+
+            $method = (env('YOUTUBE_FULL_DETAILS', "0") == "1")
+                ? 'getVideoDetails'
+                : 'getVideoDetailsSmall';
             $args = [
                 'videoId' => $videoId,
                 'downloadId' => $download->id,
+                'publishedAt' => $publishedAt,
             ];
             /** @var QueueService $queuService */
             $queueService = app()->make(QueueService::class);
@@ -104,13 +112,64 @@ class YoutubenImport
         print "\n";
     }
 
+    public function getVideoDetailsSmall($args)
+    {
+        $videoId = $args['videoId'];
+        $downloadId = $args['downloadId'];
+        $publishedAt = $args['publishedAt'];
+
+        /** @var YoutubeApi $youtubeApi */
+        $youtubeApi = app()->make(YoutubeApi::class);
+        $details = $youtubeApi->getVideoInfoShort($videoId);
+
+        $channelId = $details['channelId'];
+        $channel = Channel::where('youtube_channel_id', $channelId)
+            ->firstOrFail();
+        $video = [
+            'channel_id' => $channel->id,
+            'youtube_video_id' => $videoId,
+            'title' => $details['title'],
+            'descr' => null,
+            'default_img_url' => $details['smallImg'],
+            'medium_img_url' => $details['medImg'],
+            'high_img_url' => $details['bigImg'],
+            'player_html' => "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/{$videoId}\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+            'published_at' => date("Y-m-d G:h:s", strtotime($publishedAt)),
+            'duration' => $details['length']
+        ];
+
+        $tags = $details['tags'];
+
+        $stats = [
+            'views' => $details['views'],
+            'likes' => null,
+            'dislikes' => null,
+            'favorites' => null,
+            'comment_count' => null,
+        ];
+
+        $class = DataImportService::class;
+        $method = 'saveVideoData';
+        $args = [
+            'downloadId' => $downloadId,
+            'videoId' => $videoId,
+            'video' => $video,
+            'tags' => $tags,
+            'stats' => $stats
+        ];
+
+        /** @var QueueService $queuService */
+        $queueService = app()->make(QueueService::class);
+        $queueService->sendToQueue($class, $method, $args);
+    }
+
     public function getVideoDetails($args)
     {
 
         $videoId = $args['videoId'];
         $downloadId = $args['downloadId'];
 
-        /** @var YoutubeApi $youtube */
+        /** @var YoutubeApi $youtubeApi */
         $youtubeApi = app()->make(YoutubeApi::class);
 
         $content = $youtubeApi->getVideoInfo($videoId);

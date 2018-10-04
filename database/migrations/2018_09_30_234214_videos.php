@@ -19,7 +19,7 @@ class Videos extends Migration
             $table->string('youtube_video_id');
             $table->string('duration');
             $table->string('title');
-            $table->text('descr');
+            $table->text('descr')->nullable();
             $table->string('default_img_url');
             $table->string('medium_img_url');
             $table->string('high_img_url');
@@ -43,10 +43,10 @@ class Videos extends Migration
             $table->unsignedInteger('download_id');
             $table->unsignedInteger('video_id');
             $table->unsignedBigInteger('views');
-            $table->unsignedBigInteger('likes');
-            $table->unsignedBigInteger('dislikes');
-            $table->unsignedBigInteger('favorites');
-            $table->unsignedBigInteger('comment_count');
+            $table->unsignedBigInteger('likes')->nullable();
+            $table->unsignedBigInteger('dislikes')->nullable();
+            $table->unsignedBigInteger('favorites')->nullable();
+            $table->unsignedBigInteger('comment_count')->nullable();
             $table->boolean('latest')->nullable();
             $table->timestamps();
             $table->foreign('video_id')->references('id')->on('videos');
