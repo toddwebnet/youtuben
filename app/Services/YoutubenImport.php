@@ -66,7 +66,8 @@ class YoutubenImport
         $class = DataImportService::class;
         $method = "saveChannelStats";
         $args = [
-            'dataPacket' => $dataPacket
+            'dataPacket' => $dataPacket,
+            'kickIt' => true
         ];
 
         /** @var QueueService $queuService */

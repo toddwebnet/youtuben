@@ -70,6 +70,17 @@ class DataImportService
 
         $queueService = app()->make(QueueService::class);
         $queueService->sendToQueue($class, $method, $args);
+
+        if(array_key_exists('kickIt', $args) && $args['kickIt']){
+            $class = YoutubenImport::class;
+            $method = "getChannelVideos";
+            $args = [
+                'channelId' => $channelId
+            ];
+            /** @var QueueService $queuService */
+            $queueService = app()->make(QueueService::class);
+            $queueService->sendToQueue($class, $method, $args);
+        }
     }
 
     public function saveChannelStats($args)

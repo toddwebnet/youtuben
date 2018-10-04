@@ -26,6 +26,7 @@ class GetChannelVideos extends Command
             $args = [
                 'channelId' => $channel->youtube_channel_id
             ];
+            dump($channel->toArray());
             /** @var QueueService $queuService */
             $queueService = app()->make(QueueService::class);
             $queueService->sendToQueue($class, $method, $args);

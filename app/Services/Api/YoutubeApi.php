@@ -72,6 +72,7 @@ class YoutubeApi extends Youtube
             'part' => implode(', ', $part),
             'maxResults' => $maxResults,
         ];
+
         if (!empty($order)) {
             $params['order'] = $order;
         }
@@ -84,8 +85,9 @@ class YoutubeApi extends Youtube
             if ($lastDate !== null) {
                 $params['publishedBefore'] = $lastDate;
             }
-            // $params['publishedAfter'] = '2017-01-01';
+            // $params['publishedAfter'] = '2018-01-01';
             $results = $this->searchAdvanced($params, false);
+
             try {
                 foreach ($results as $item) {
 
@@ -162,7 +164,7 @@ class YoutubeApi extends Youtube
             'smallImg' => $smallImg,
             'medImg' => $medImg,
             'bigImg' => $bigImg,
-            'views' => $videoDetails->viewCount,
+            'views' => (property_exists($videoDetails, 'viewCount')) ? $videoDetails->viewCount : 0,
         ];
     }
 
