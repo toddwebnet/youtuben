@@ -1,0 +1,671 @@
+Array
+(
+    [external_play_video] => 1
+    [iv_load_policy] => 1
+    [fexp] => 23710476,23720702,23721698,23721898,23722180,23722411,23727195,23733013,23733442,23735274,23739841,23744176,23749490,23751767,23752869,23753284,23753597,23754523,23754525,23754531,23755886,23755898,23756191,23756525,23758256,23759694,23760719,23760921,23762649,23762813,23763126,23763475,23763691,23764064,23764135,23764670,23764853,23764993,23765301,23766230,23766843,23767582,23768057,23768228,23768228,9449243,9452652,9466594,9471235,9474458,9475689,9485000
+    [iv_allow_in_place_switch] => 1
+    [innertube_api_version] => v1
+    [allow_ratings] => 1
+    [watermark] => ,http://s.ytimg.com/yts/img/watermark/youtube_watermark-vflHX6b6E.png,http://s.ytimg.com/yts/img/watermark/youtube_hd_watermark-vflAzLcD6.png
+    [c] => WEB
+    [apply_fade_on_midrolls] => True
+    [author] => SankeyMagic
+    [view_count] => 1190404
+    [remarketing_url] => https://www.youtube.com/pagead/viewthroughconversion/962985656/?backend=innertube&cname=1&cver=1_20180929&foc_id=2X0s6-0luc_Egd01fZX2Tw&label=followon_view&ptype=no_rmkt
+    [iv_invideo_url] => http://www.youtube.com/annotations_invideo?cap_hist=1&video_id=9b5DlnsdV-Y&client=1&ei=NYO1W-PYE4WNigS0iqPABQ
+    [player_error_log_fraction] => 1.0
+    [ptchn] => 2X0s6-0luc_Egd01fZX2Tw
+    [iv3_module] => 1
+    [avg_rating] => 4.78729486465
+    [ismb] => 12510000
+    [adaptive_fmts] => Array
+        (
+            [xtags] => 
+            [fps] => 30
+            [clen] => 5531669
+            [size] => 256x144
+            [init] => 0-265
+            [itag] => 251
+            [bitrate] => 131018
+            [quality_label] => 144p
+            [lmt] => 1536822107626222
+            [projection_type] => 1
+            [type] => audio/webm; codecs="opus"
+            [url] => https://r5---sn-q4flrn7s.googlevideo.com/videoplayback?dur=352.341&source=youtube&lmt=1536822947101291&key=yt6&beids=9466588&expire=1538643861&initcwndbps=1563750&clen=5531669&pl=18&mime=audio%2Fwebm&mv=m&mt=1538622216&itag=251&ms=au%2Conr&ei=NYO1W-PYE4WNigS0iqPABQ&sparams=clen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Crequiressl%2Csource%2Cexpire&keepalive=yes&mn=sn-q4flrn7s%2Csn-5uaeznks&mm=31%2C26&ipbits=0&c=WEB&id=o-AHCiM6UT34Bw-GxKSBFKQH2ykWWrZgjZxzi5Trw0UIeH&fvip=5&requiressl=yes&ip=73.136.195.94&signature=ABDCDB6ECCEDFD3B16086CC33F8BDB6DD7595DAA.63CCA6CEDB09489F7C34ABADD953BCBD57AE0FB6&gir=yes
+            [index] => 266-874
+            [primaries] => bt709
+            [eotf] => bt709
+        )
+
+    [gapi_hint_params] => m;/_/scs/abc-static/_/js/k=gapi.gapi.en.yK0z3MKtgaU.O/m=__features__/rt=j/d=1/rs=AHpOoo-SafOYj4n3budMysbWxppU-lxJeg
+    [fade_out_duration_milliseconds] => 1000
+    [vmap] => <?xml version="1.0" encoding="UTF-8"?>
+<vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" xmlns:yt="http://youtube.com" version="1.0"></vmap:VMAP>
+    [serialized_ad_ux_config] => [[[null,null,null,null,null,null,null,null,1,null,1,null,0,null,null,null,null,null,null,null,null,null,null,null,null,0.699999988079071],null,[1,null,null,null,null,null,1,null,null,null,null,null,1,null,["Thanks for your feedback!","Learn more","https://support.google.com/youtube/answer/3181017?hl=en"]]]]
+    [oid] => SMONvvMgns327xq6ScEHMA
+    [root_ve_type] => 27240
+    [vss_host] => s.youtube.com
+    [title] => MAKE ANY PEN VANISH!
+    [enabled_engage_types] => 3,6,4,5,17,1
+    [of] => aV99tG-H3KHEqjz77UEp1Q
+    [vid] => 9b5DlnsdV-Y
+    [url_encoded_fmt_stream_map] => Array
+        (
+            [url] => https://r5---sn-q4flrn7s.googlevideo.com/videoplayback?mv=m&dur=352.386&source=youtube&ratebypass=yes&itag=22&ms=au%2Conr&lmt=1536822388454508&sparams=dur%2Cei%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Crequiressl%2Csource%2Cexpire&key=yt6&initcwndbps=1563750&mn=sn-q4flrn7s%2Csn-5uaeznks&beids=9466588&mm=31%2C26&ipbits=0&mt=1538622216&expire=1538643861&c=WEB&ei=NYO1W-PYE4WNigS0iqPABQ&id=o-AHCiM6UT34Bw-GxKSBFKQH2ykWWrZgjZxzi5Trw0UIeH&fvip=5&requiressl=yes&ip=73.136.195.94&signature=7AAD05D2951FCE5BAB4F50452EE37307F9C7D5A3.B102F8419BC4923EE98EDF5363443F0F194F7FF6&pl=18&mime=video%2Fmp4
+            [type] => video/3gpp; codecs="mp4v.20.3, mp4a.40.2"
+            [itag] => 17
+            [quality] => small
+        )
+
+    [uid] => 2X0s6-0luc_Egd01fZX2Tw
+    [thumbnail_url] => http://i.ytimg.com/vi/9b5DlnsdV-Y/default.jpg
+    [player_response] => stdClass Object
+        (
+            [playabilityStatus] => stdClass Object
+                (
+                    [status] => OK
+                )
+
+            [playbackTracking] => stdClass Object
+                (
+                )
+
+            [videoDetails] => stdClass Object
+                (
+                    [videoId] => 9b5DlnsdV-Y
+                    [title] => MAKE ANY PEN VANISH!
+                    [lengthSeconds] => 352
+                    [keywords] => Array
+                        (
+                            [0] => Magic
+                            [1] => sankey magic
+                            [2] => David Blaine
+                            [3] => street magic
+                            [4] => tutorial
+                            [5] => sleight-of-hand
+                            [6] => DIY
+                            [7] => magic
+                            [8] => flourishing
+                            [9] => card trick
+                            [10] => bar tricks
+                            [11] => magic trick
+                            [12] => illusion
+                            [13] => supernatural
+                            [14] => cool trick
+                            [15] => Dynamo
+                            [16] => cool magic
+                            [17] => prank
+                            [18] => magic DIY
+                            [19] => Jay Sankey
+                            [20] => vlog
+                            [21] => magic tricks revealed
+                            [22] => easy tricks
+                            [23] => magic show
+                            [24] => Criss Angel
+                            [25] => coin trick
+                            [26] => magic videos
+                            [27] => Penn and Teller
+                            [28] => CN Tower
+                            [29] => David Copperfield
+                            [30] => flourishes
+                        )
+
+                    [channelId] => UC2X0s6-0luc_Egd01fZX2Tw
+                    [isCrawlable] => 1
+                    [thumbnail] => stdClass Object
+                        (
+                            [thumbnails] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [url] => http://i.ytimg.com/vi/9b5DlnsdV-Y/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDd7xHm9fHrBsCkk3Do68Y4NZbsNA
+                                            [width] => 168
+                                            [height] => 94
+                                        )
+
+                                    [1] => stdClass Object
+                                        (
+                                            [url] => http://i.ytimg.com/vi/9b5DlnsdV-Y/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDUBOPpX_SskuEXkn_x_6aIZC-tqg
+                                            [width] => 196
+                                            [height] => 110
+                                        )
+
+                                    [2] => stdClass Object
+                                        (
+                                            [url] => http://i.ytimg.com/vi/9b5DlnsdV-Y/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCv2xn7t2mG_il0_VrdpNnU5i1iLg
+                                            [width] => 246
+                                            [height] => 138
+                                        )
+
+                                    [3] => stdClass Object
+                                        (
+                                            [url] => http://i.ytimg.com/vi/9b5DlnsdV-Y/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAGw4UIY2NFShBybIhxZcJP6-yzaQ
+                                            [width] => 336
+                                            [height] => 188
+                                        )
+
+                                )
+
+                        )
+
+                    [viewCount] => 1190404
+                    [author] => SankeyMagic
+                    [isLiveContent] => 
+                )
+
+            [attestation] => stdClass Object
+                (
+                    [playerAttestationRenderer] => stdClass Object
+                        (
+                            [challenge] => a=3&b=PNUseE85xDnNtq2SkR0QySMqg3o&c=1538622261&d=1&e=9b5DlnsdV-Y&c3a=27&c1a=1&c6a=1&hh=bbJOKF8kemdPh55Rq9jgj4amJDDCpbzRbNMDVG9q980
+                        )
+
+                )
+
+            [messages] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [mealbarPromoRenderer] => stdClass Object
+                                (
+                                    [messageTexts] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [runs] => Array
+                                                        (
+                                                            [0] => stdClass Object
+                                                                (
+                                                                    [text] => Get YouTube without the ads.
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [actionButton] => stdClass Object
+                                        (
+                                            [buttonRenderer] => stdClass Object
+                                                (
+                                                    [style] => STYLE_PRIMARY
+                                                    [size] => SIZE_DEFAULT
+                                                    [text] => stdClass Object
+                                                        (
+                                                            [runs] => Array
+                                                                (
+                                                                    [0] => stdClass Object
+                                                                        (
+                                                                            [text] => 1 month free
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [navigationEndpoint] => stdClass Object
+                                                        (
+                                                            [clickTrackingParams] => CAQQ7G8iEwijx9HK5uvdAhWFhoIKHTTFCFgo6NQB
+                                                            [browseEndpoint] => stdClass Object
+                                                                (
+                                                                    [browseId] => SPunlimited
+                                                                    [params] => kgMREg9GRXdoYXRfdG9fd2F0Y2g%3D
+                                                                )
+
+                                                        )
+
+                                                    [trackingParams] => CAQQ7G8iEwijx9HK5uvdAhWFhoIKHTTFCFgo6NQB
+                                                )
+
+                                        )
+
+                                    [dismissButton] => stdClass Object
+                                        (
+                                            [buttonRenderer] => stdClass Object
+                                                (
+                                                    [style] => STYLE_BLUE_TEXT
+                                                    [size] => SIZE_DEFAULT
+                                                    [text] => stdClass Object
+                                                        (
+                                                            [runs] => Array
+                                                                (
+                                                                    [0] => stdClass Object
+                                                                        (
+                                                                            [text] => No thanks
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [serviceEndpoint] => stdClass Object
+                                                        (
+                                                            [clickTrackingParams] => CAMQ7W8iEwijx9HK5uvdAhWFhoIKHTTFCFgo6NQB
+                                                            [feedbackEndpoint] => stdClass Object
+                                                                (
+                                                                    [feedbackToken] => AB9zfpJibtyBZjupEkxjQ6_O0ozeL7HSy2KTiAJrDPSw_B9UZhlrkWuvKNHC1NVtuPrHxzvjW1qho7DmXEsAn2jNZJXHdRt6jD9GubXEapxJxakQZLbXOc7fC4NoIZ7SUs2Sd0x-MqLbqX_eCTzM_L0XcMPmxwDi6w
+                                                                    [uiActions] => stdClass Object
+                                                                        (
+                                                                            [hideEnclosingContainer] => 1
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [trackingParams] => CAMQ7W8iEwijx9HK5uvdAhWFhoIKHTTFCFgo6NQB
+                                                )
+
+                                        )
+
+                                    [triggerCondition] => TRIGGER_CONDITION_POST_AD
+                                    [style] => STYLE_MESSAGE
+                                    [trackingParams] => CAIQ42kYAiITCKPH0crm690CFYWGggodNMUIWCjo1AE=
+                                    [impressionEndpoints] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [clickTrackingParams] => CAIQ42kYAiITCKPH0crm690CFYWGggodNMUIWCjo1AE=
+                                                    [feedbackEndpoint] => stdClass Object
+                                                        (
+                                                            [feedbackToken] => AB9zfpKoyS869DfZ7J-aJkartS1zD4NPDa3hPKvZZZB25-_ucBd354iLzmkV6CDB2WzyASjkVLE1Dx6QLQTujI7Nx8_6dtyM9hG2DyszxXgkMsLZ5qFRpazdnYRGRM_WydR1OR8v1aWUFpkG4pr4Kbd5Ywl0MJA4Bw
+                                                            [uiActions] => stdClass Object
+                                                                (
+                                                                    [hideEnclosingContainer] => 
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [isVisible] => 1
+                                    [messageTitle] => stdClass Object
+                                        (
+                                            [runs] => Array
+                                                (
+                                                    [0] => stdClass Object
+                                                        (
+                                                            [text] => YouTube Premium
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [adSafetyReason] => stdClass Object
+                (
+                    [isEmbed] => 1
+                    [isRemarketingEnabled] => 1
+                    [isFocEnabled] => 1
+                )
+
+        )
+
+    [video_id] => 9b5DlnsdV-Y
+    [hl] => en_US
+    [ad_device] => 1
+    [allow_below_the_player_companion] => True
+    [innertube_api_key] => AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8
+    [idpj] => -3
+    [baseUrl] => https://www.youtube.com/pagead/viewthroughconversion/962985656/
+    [allow_embed] => 1
+    [account_playback_token] => QUFFLUhqa2VRMG95Y0V4anJwak5meld0VWttXzV3aE9JZ3xBQ3Jtc0ttR3J1bjVLY2lseTNZYmhjRG5KenRoUFByWWFVSHlta29rSGpiYXRkQWZHRU1OVkNRWTdya2Y3MnBFbGNPNE9lY2V0SFBvQjhGV09ZZXI1S3I2dzhZMFNzajJLcDA1bHphMzg2TkQ5eDBraUhoaTdzQQ==
+    [ldpj] => -27
+    [enablecsi] => 1
+    [csn] => NYO1W-PYE4WNigS0iqPABQ
+    [atc] => a=3&b=PNUseE85xDnNtq2SkR0QySMqg3o&c=1538622261&d=1&e=9b5DlnsdV-Y&c3a=27&c1a=1&c6a=1&hh=bbJOKF8kemdPh55Rq9jgj4amJDDCpbzRbNMDVG9q980
+    [videostats_playback_base_url] => https://s.youtube.com/api/stats/playback?ns=yt&el=embedded&plid=AAV3XmlWEteLgjmP&ei=NYO1W-PYE4WNigS0iqPABQ&fexp=23710476%2C23720702%2C23721698%2C23721898%2C23722180%2C23722411%2C23727195%2C23733013%2C23733442%2C23735274%2C23739841%2C23744176%2C23749490%2C23751767%2C23752869%2C23753284%2C23753597%2C23754523%2C23754525%2C23754531%2C23755886%2C23755898%2C23756191%2C23756525%2C23758256%2C23759694%2C23760719%2C23760921%2C23762649%2C23762813%2C23763126%2C23763475%2C23763691%2C23764064%2C23764135%2C23764670%2C23764853%2C23764993%2C23765301%2C23766230%2C23766843%2C23767582%2C23768057%2C23768228%2C23768228%2C9449243%2C9452652%2C9466594%2C9471235%2C9474458%2C9475689%2C9485000&of=aV99tG-H3KHEqjz77UEp1Q&docid=9b5DlnsdV-Y&cl=215448153&len=353&vm=CAEQARgE
+    [ucid] => UC2X0s6-0luc_Egd01fZX2Tw
+    [csi_page_type] => embed
+    [fade_in_duration_milliseconds] => 1000
+    [midroll_prefetch_size] => 1
+    [ad3_module] => 1
+    [innertube_context_client_version] => 1.20180929
+    [apiary_host] => 
+    [sffb] => True
+    [allow_html5_ads] => 1
+    [xhr_apiary_host] => youtubei.youtube.com
+    [eventid] => NYO1W-PYE4WNigS0iqPABQ
+    [token] => 1
+    [keywords] => Magic,sankey magic,David Blaine,street magic,tutorial,sleight-of-hand,DIY,magic,flourishing,card trick,bar tricks,magic trick,illusion,supernatural,cool trick,Dynamo,cool magic,prank,magic DIY,Jay Sankey,vlog,magic tricks revealed,easy tricks,magic show,Criss Angel,coin trick,magic videos,Penn and Teller,CN Tower,David Copperfield,flourishes
+    [is_listed] => 1
+    [relative_loudness] => -3.5890007019
+    [pltype] => content
+    [length_seconds] => 352
+    [vm] => CAEQARgE
+    [fade_out_start_milliseconds] => 0
+    [tmi] => 1
+    [cl] => 215448153
+    [status] => ok
+    [plid] => AAV3XmlWEteLgjmP
+    [storyboard_spec] => http://i9.ytimg.com/sb/9b5DlnsdV-Y/storyboard3_L$L/$N.jpg|48#27#100#10#10#0#default#rs$AOn4CLAdlQ_h6Sr7XNxdeyM0dXev1a0B4Q|80#45#72#10#10#5000#M$M#rs$AOn4CLD2656ipL61ZkUyDIQjoTsNydQxEA|160#90#72#5#5#5000#M$M#rs$AOn4CLCFN7OiaLG4519jvX60_-dE--opWg
+    [fflags] => Array
+        (
+            [html5_readahead_ratelimit] => 3000
+            [html5_variability_no_discount_thresh] => 1.0
+            [html5_disable_preserve_reference] => true
+            [html5_live_disable_dg_pacing] => true
+            [html5_widevine_hw_secure_all] => true
+            [enable_afv_div_reset_in_kevlar] => true
+            [html5_manifestless_always_redux] => true
+            [uniplayer_dbp] => true
+            [bulleit_update_tsla_cookie] => true
+            [html5_suspend_loader] => true
+            [use_refreshed_overlay_buttons] => true
+            [html5_msi_error_fallback] => true
+            [enable_overlays_wta] => true
+            [html5_disable_non_contiguous] => true
+            [mweb_ios_handle_player_click_by_touch_event] => true
+            [interaction_screen_on_gel_web] => true
+            [html5_streaming_xhr_optimize_lengthless_mp4] => true
+            [html5_min_readbehind_cap_secs] => 60
+            [html5_pipeline_ultra_low_latency] => true
+            [king_crimson_player_redux] => true
+            [html5_manifestless_synchronized] => true
+            [sdk_wrapper_levels_allowed] => 0
+            [html5_cut_vss_on_visibility] => true
+            [html5_live_low_latency_bandwidth_window] => 0.0
+            [sdk_ad_prefetch_time_seconds] => -1
+            [html5_remove_pause] => false
+            [html5_decode_to_texture_cap] => true
+            [show_countdown_on_bumper] => true
+            [html5_probe_primary_delay_base_ms] => 0
+            [html5_min_buffer_to_resume] => 6
+            [html5_bandwidth_window_size] => 0
+            [vss_dni_delayping] => 0
+            [bulleit_round_up_tsla] => true
+            [autoplay_time] => 8000
+            [desktop_companion_wta_support] => true
+            [html5_optimality_migration] => true
+            [use_ima_media_selection_in_bulleit] => true
+            [html5_seeking_buffering_only_playing] => true
+            [segment_volume_reporting] => true
+            [html5_new_seeking] => true
+            [html5_shrink_live_timestamps] => true
+            [midroll_notify_time_seconds] => 5
+            [enable_ima_ad_container_position_fix] => true
+            [stop_using_ima_sdk_gpt_request_activity] => true
+            [mweb_add_ad_info_button_on_fullscreen_only_devices] => true
+            [html5_incremental_parser_coalesce_slice_buffers] => true
+            [mweb_enable_instream_ui_refresh] => true
+            [hide_preskip] => true
+            [mweb_cougar_big_controls] => true
+            [live_readahead_seconds_multiplier] => 0.8
+            [playready_first_play_expiration] => -1
+            [html5_ignore_bad_bitrates] => true
+            [mweb_cougar] => true
+            [lightweight_watch_video_swf] => true
+            [html5_ad_no_buffer_abort_after_skippable] => true
+            [mweb_bulleit_show_ad_top_bar_for_phones] => true
+            [html5_serverside_biscotti_id_wait_ms] => 1000
+            [html5_widevine_robustness_strings] => true
+            [html5_get_video_info_timeout_ms] => 30000
+            [ad_to_video_use_gel] => true
+            [html5_subsegment_readahead_require_whitelist] => true
+            [use_forced_linebreak_preskip_text] => true
+            [web_player_music_visualizer_treatment] => fake
+            [dynamic_ad_break_pause_threshold_sec] => 0
+            [html5_subsegment_readahead_min_buffer_health_secs] => 0.25
+            [html5_min_secs_between_format_selections] => 8.0
+            [send_html5_api_stats_ads_abandon] => true
+            [delay_bulleit_media_load_timer] => true
+            [html5_adaptation_fix] => true
+            [enable_mute_ad_endpoint_resolution_on_bulleit] => true
+            [html5_live_ultra_low_latency_bandwidth_window] => 0.0
+            [html5_request_size_min_secs] => 0.0
+            [use_new_skip_icon] => true
+            [html5_preload_media] => true
+            [bulleit_disable_preroll_release_on_dispose] => true
+            [html5_platform_minimum_readahead_seconds] => 0.0
+            [forced_brand_precap_duration_ms] => 2000
+            [web_player_api_logging_fraction] => 0.01
+            [use_new_style] => true
+            [enable_bulleit_for_mweb] => true
+            [legacy_autoplay_flag] => true
+            [mweb_undim_skip_button_on_ad_pause] => true
+            [html5_live_abr_repredict_fraction] => 0.0
+            [html5_reason_reporting_migration] => true
+            [html5_default_ad_gain] => 0.5
+            [html5_manifestless_captions] => true
+            [skip_ad_button_with_thumbnail] => true
+            [kevlar_miniplayer_button] => true
+            [fixed_padding_skip_button] => true
+            [disable_client_side_midroll_freq_capping] => true
+            [postroll_notify_time_seconds] => 5
+            [spacecast_uniplayer_decorate_manifest] => true
+            [ima_video_ad_with_overlay_class_logging_percentage] => 0.01
+            [html5_license_constraint_delay] => 5000
+            [desktop_shopping_companion_wta_support] => true
+            [html5_request_size_padding_secs] => 3.0
+            [html5_enable_non_diegetic] => true
+            [html5_minimum_readahead_seconds] => 0.0
+            [html5_sticky_reduces_discount_by] => 0.0
+            [deprecate_vss_dallas_cache] => true
+            [interaction_click_on_gel_web] => true
+            [html5_max_readahead_bandwidth_cap] => 0
+            [html5_deadzone_multiplier] => 1.0
+            [show_interstitial_for_3s] => true
+            [html5_prefer_server_bwe3] => true
+            [disable_client_side_midroll_freq_capping_nonpc] => true
+            [html5_manifestless_request_prediction] => true
+            [html5_tight_max_buffer_allowed_impaired_time] => 0.0
+            [html5_view_offset] => 0.0
+            [html5_player_autonav_logging] => true
+            [html5_subsegment_readahead_load_speed_check_interval] => 0.5
+            [use_full_timing_library] => true
+            [html5_vis_upgrades_are_resizes] => true
+            [html5_disable_audio_slicing] => true
+            [website_actions_throttle_percentage] => 1.0
+            [html5_subsegment_readahead_seek_latency_fudge] => 0.5
+            [use_survey_skip_in_0s] => true
+            [bulleit_terminate_ad_when_ending_with_commands] => true
+            [html5_parse_inline_fallback_host] => true
+            [html5_restrict_streaming_xhr_on_sqless_requests] => true
+            [html5_video_tbd_min_kb] => 0
+            [html5_live_abr_head_miss_fraction] => 0.0
+            [bulleit_get_midroll_info_timeout_ms] => 8000
+            [html5_stop_video_in_cancel_playback] => true
+            [html5_live_normal_latency_bandwidth_window] => 0.0
+            [html5_aspect_from_adaptive_format] => true
+            [preskip_countdown_font_size] => 
+            [html5_autonav_quality_cap] => 0
+            [bulleit_block_player_pause_until_ad_start] => true
+            [html5_live_no_streaming_impedance_mismatch] => true
+            [mweb_autonav] => true
+            [html5_repredict_interval_secs] => 0.0
+            [use_touch_events_for_bulleit_mweb] => true
+            [enable_prefetch_for_postrolls] => true
+            [desktop_cleanup_companion_on_instream_begin] => true
+            [enable_survey_ad_info_dialog] => true
+            [allow_midrolls_on_watch_resume_in_bulleit] => true
+            [kevlar_miniplayer] => true
+            [enable_bulleit_lidar_integration] => true
+            [html5_background_quality_cap] => 360
+            [html5_creativeless_vast_on_ima] => true
+            [enable_live_premieres_vss_live_type_lp] => true
+            [html5_min_upgrade_health] => 0
+            [enable_live_premiere_web_player_indicator] => true
+            [html5_variability_full_discount_thresh] => 3.0
+            [desktop_action_companion_wta_support] => true
+            [process_extensions_in_vast_wrappers_for_survey_ads] => true
+            [html5_log_playback_rate_change_killswitch] => true
+            [enable_static_font_size_on_text_only_preview] => true
+            [bulleit_remove_client_side_midroll_reactivation] => true
+            [html5_expire_preloaded_players] => true
+            [html5_manifestless_interpolate] => true
+            [playready_on_borg] => true
+            [live_fresca_v2] => true
+            [disable_new_pause_state3] => true
+            [www_for_videostats] => true
+            [set_interstitial_advertisers_question_text] => true
+            [html5_tv_bearer] => true
+            [allow_live_autoplay] => true
+            [html5_use_media_capabilities] => true
+            [android_attestation_flow] => yt_player
+            [web_android9_useragent_fix] => true
+            [html5_manifestless_accurate_sliceinfo] => true
+            [html5_disable_vp8_only_browsers] => true
+            [html5_variability_discount] => 0.5
+            [html5_subsegment_readahead_min_buffer_health_secs_on_timeout] => 0.1
+            [variable_buffer_timeout_ms] => 0
+            [add_border_to_bulleit_mweb_skip] => true
+            [html5_incremental_parser_buffer_duration_secs] => 1.5
+            [html5_manifestless_no_redundant_seek_to_head] => true
+            [html5_start_date_from_element] => true
+            [call_release_video_in_bulleit] => true
+            [use_html5_player_event_timeout] => true
+            [html5_delay_initial_loading] => true
+            [flex_theater_mode] => true
+            [player_unified_fullscreen_transitions] => true
+            [html5_jumbo_ull_subsegment_readahead_target] => 1.3
+            [low_engagement_player_quality_cap] => 360
+            [html5_probe_secondary_during_timeout_miss_count] => 2
+            [show_interstitial_white] => true
+            [use_always_dimmed_skip_in_bulleit_web] => true
+            [html5_log_rebuffer_events] => 0
+            [doubleclick_gpt_retagging] => true
+            [mweb_muted_autoplay] => true
+            [html5_dont_predict_end_time_in_past] => true
+            [live_chunk_readahead] => 3
+            [bulleit_mimic_ima_player_api_calls] => true
+            [attach_child_on_gel_web] => true
+            [html5_live_4k_more_buffer] => true
+            [html5_use_hasAdvanced_for_pbs] => true
+            [html5_progressive_fallback] => true
+            [html5_quality_cap_min_age_secs] => 0
+            [bulleit_web_dim_skip_using_css] => true
+            [mweb_muted_autoplay_animation] => shrink
+            [html5_max_buffer_duration] => 120
+            [html5_elbow_tracking_tweaks] => true
+            [html5_media_fullscreen] => true
+            [html5_serverside_call_server_on_biscotti_error] => true
+            [html5_maximum_readahead_seconds] => 0.0
+            [desktop_image_companion_wta_support] => true
+            [bulleit_use_touch_events_for_skip] => true
+            [html5_jumbo_mobile_subsegment_readahead_target] => 3.0
+            [html5_subsegment_readahead_timeout_secs] => 2.0
+            [html5_suspend_manifest_on_pause] => true
+            [fast_autonav_in_background] => true
+            [provide_default_wta_reasons] => true
+            [html5_disable_move_pssh_to_moov] => true
+            [enable_uturn_error_screen_limited] => true
+            [html5_disable_subscribe_new_vis] => true
+            [dash_manifest_version] => 5
+            [desktop_videowall_companion_wta_support] => true
+            [html5_pipeline_manifestless] => true
+            [dynamic_ad_break_seek_threshold_sec] => 0
+            [html5_ignore_updates_before_initial_ping] => true
+            [youtubei_for_web] => true
+            [html5_no_placeholder_rollbacks] => true
+            [mweb_playsinline] => true
+            [preskip_button_style_ads_backend] => 
+            [html5_get_video_info_promiseajax] => true
+            [variable_load_timeout_ms] => 0
+            [html5_dynamic_readahead_growth_rate] => 0.0
+            [html5_min_readbehind_secs] => 0
+            [kevlar_allow_multistep_video_init] => true
+            [show_thumbnail_behind_ypc_offer_module] => true
+            [html5_frame_accurate_seek_limit] => 3
+            [html5_probe_live_using_range] => true
+            [html5_reattach_resource_after_timeout_limit] => 0
+            [html5_streaming_xhr_buffer_mdat] => true
+            [html5_adjust_effective_request_size] => true
+            [html5_connect_timeout_secs] => 7.0
+            [bulleit_extract_delayed_mpu_on_all_placement_init] => true
+            [skip_restore_on_abandon_in_bulleit] => true
+            [html5_subsegment_readahead_min_load_speed] => 1.5
+            [player_destroy_old_version] => true
+            [html5_waiting_before_ended] => true
+            [ad_duration_threshold_for_showing_endcap_seconds] => 15
+            [html5_probe_media_capabilities] => true
+            [fix_gpt_pos_params] => true
+            [html5_allowable_liveness_drift_chunks] => 2
+            [vmap_enabled_living_room] => true
+            [fix_bulleit_cue_range_seek] => true
+            [tvhtml5_min_readbehind_secs] => 20
+            [html5_vp9_live_whitelist] => true
+            [max_resolution_for_white_noise] => 360
+            [html5_post_interrupt_readahead] => 20
+            [bulleit_use_http_get_by_default_for_get_midroll_info] => true
+            [html5_serverside_call_server_on_biscotti_timeout] => true
+            [html5_ad_stats_bearer] => true
+            [html5_vp9_live_blacklist_edge] => true
+            [persist_text_on_preview_button] => true
+            [set_interstitial_start_button] => true
+            [mweb_playsinline_webview] => true
+            [bulleit_register_placements_in_order] => true
+            [html5_manifestless_shrink_timestamps] => true
+            [show_thumbnail_on_standard] => true
+            [html5_fludd_suspend] => true
+            [unplugged_tvhtml5_video_preload_on_focus_delay_ms] => 0
+            [html5_hfr_quality_cap] => 0
+            [html5_background_cap_idle_secs] => 60
+            [html5_max_av_sync_drift] => 50
+            [enable_uturn_error_screen] => true
+            [use_fast_fade_in_0s] => true
+            [web_player_housebrand_video_url_killswitch] => true
+            [html5_subsegment_readahead_target_buffer_health_secs] => 0.5
+            [html5_stale_dash_manifest_retry_factor] => 1.0
+            [bulleit_use_cue_video_to_reset_on_stop_ad] => true
+            [html5_live_pin_to_tail] => true
+            [player_external_control_on_classic_desktop] => true
+            [html5_av1_thresh] => 0
+            [html5_qoe_intercept] => 
+            [mpu_visible_threshold_count] => 2
+            [safari_enable_spherical] => true
+            [html5_default_quality_cap] => 0
+            [html5_log_hls_video_height_change_as_format_change] => true
+            [bulleit_register_cue_range_events_before_ad_init] => true
+            [html5_new_vis_fullscreen_and_airplay] => true
+            [html5_tight_max_buffer_allowed_bandwidth_stddevs] => 0.0
+            [html5_use_adaptive_live_readahead] => true
+            [html5_exile_broken_instances] => true
+            [log_playback_associated_web] => true
+            [html5_max_headm_for_streaming_xhr] => 0
+            [html5_ignore_public_setPlaybackQuality] => true
+            [lasr_captions_holdback_counterfactual_id] => 0
+            [html5_request_size_max_secs] => 31
+            [html5_jumbo_ull_nonstreaming_mffa_ms] => 4000
+            [html5_streaming_xhr_progress_includes_latest] => true
+            [html5_incremental_parser_buffer_extra_bytes] => 16384
+            [html5_enable_embedded_player_visibility_signals] => true
+            [html5_qoe_bearer] => true
+            [ima_disable_reset_active_media_load_timeout] => true
+            [html5_spherical_bicubic_mode] => 1
+            [html5_playback_data_migration] => true
+            [ad_video_end_renderer_duration_milliseconds] => 7000
+            [html5_ultra_low_latency_streaming_responses] => true
+            [html5_hls_min_video_height] => 0
+            [html5_desktop_vr180_allow_panning] => true
+            [html5_fallbacks_delay_primary_probes] => true
+            [html5_pause_video_fix] => true
+            [html5_no_shadow_env_data_redux] => true
+            [html5_hls_initial_bitrate] => 0
+            [set_default_wta_if_missing_for_externs] => true
+            [html5_request_sizing_multiplier] => 0.8
+        )
+
+    [fade_in_start_milliseconds] => -3000
+    [t] => 1
+    [cr] => US
+    [host_language] => en
+    [itct] => CAEQu2kiEwijx9HK5uvdAhWFhoIKHTTFCFgo6NQB
+    [midroll_freqcap] => 420.0
+    [apiary_host_firstparty] => 
+    [focEnabled] => 1
+    [timestamp] => 1538622261
+    [fmt_list] => 22/1280x720,43/640x360,18/640x360,36/320x180,17/176x144
+    [no_get_video_log] => 1
+    [loudness] => -24.5890007019
+    [ptk] => youtube_single
+    [cver] => 1.20180929
+)
